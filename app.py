@@ -16,5 +16,9 @@ def hello():
 def say_hello():
     return('Another Dir for the flask app   ')
 
+app.route('/devRoute')
+def devRoute():
+    return('Working on another branch')
+
 if __name__ == '__main__':
     app.run()
